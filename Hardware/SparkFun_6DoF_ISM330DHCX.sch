@@ -22109,13 +22109,12 @@ MODE2:  Sensor Hub mode
    I2C or SPI with controller I2C port
 MODE3:  AUX SPI mode
    I2C and SPI access (Multi-read)   </text>
-<text x="148.844" y="6.858" size="2.54" layer="94" font="vector">Revised by: Elias Santistevan</text>
 <wire x1="0" y1="86.36" x2="114.3" y2="86.36" width="0.2032" layer="97" style="longdash"/>
 <wire x1="114.3" y1="86.36" x2="248.92" y2="86.36" width="0.2032" layer="97" style="longdash"/>
 <wire x1="114.3" y1="185.42" x2="114.3" y2="86.36" width="0.2032" layer="97" style="longdash"/>
 <text x="45.466" y="150.114" size="1.27" layer="97" font="vector">VDD Range: 1.71V - 3.6V
 VDDIO Range: 1.62V - 3.6V</text>
-<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v10</text>
+<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v01</text>
 <text x="215.646" y="141.986" size="1.778" layer="97" font="vector">0x6B (Default)
 0x6A 
 Cut trace and leave
@@ -22130,7 +22129,6 @@ LED.</text>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
 <instance part="FRAME1" gate="V" x="147.32" y="0" smashed="yes">
-<attribute name="DESIGNER" x="167.132" y="11.43" size="2.54" layer="94" font="vector"/>
 <attribute name="LAST_DATE_TIME" x="160.02" y="1.27" size="2.54" layer="94" font="vector"/>
 <attribute name="SHEET" x="233.68" y="1.27" size="2.54" layer="94" font="vector"/>
 <attribute name="DRAWING_NAME" x="162.814" y="17.78" size="2.7432" layer="94" font="vector"/>
