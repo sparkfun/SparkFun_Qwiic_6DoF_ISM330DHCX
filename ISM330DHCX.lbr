@@ -107,7 +107,7 @@
 </package>
 </packages>
 <symbols>
-<symbol name="ISM330DCHX">
+<symbol name="ISM330DHCX">
 <wire x1="-10.16" y1="12.7" x2="-10.16" y2="-15.24" width="0.1524" layer="94"/>
 <wire x1="-10.16" y1="-15.24" x2="10.16" y2="-15.24" width="0.1524" layer="94"/>
 <wire x1="10.16" y1="-15.24" x2="10.16" y2="12.7" width="0.1524" layer="94"/>
@@ -131,12 +131,12 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ISM330DCHX" prefix="U">
+<deviceset name="ISM330DHCX" prefix="U">
 <description>&lt;h3&gt;ISM330DHCX 6DoF&lt;/h3&gt;
 &lt;p&gt;The ISM330DHCX is a system-in-package featuring a high-performance 3D digital
 accelerometer and 3D digital gyroscope tailored for Industry 4.0 applications.&lt;/p&gt;</description>
 <gates>
-<gate name="G$1" symbol="ISM330DCHX" x="0" y="0"/>
+<gate name="G$1" symbol="ISM330DHCX" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="LGA-14L">
