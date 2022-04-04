@@ -24930,7 +24930,7 @@ accelerometer and 3D digital gyroscope tailored for Industry 4.0 applications.&l
 </classes>
 <parts>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device="">
-<attribute name="DESIGNER" value="Marshall Taylor"/>
+<attribute name="DESIGNER" value="Elias Santistevan"/>
 </part>
 <part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
@@ -24942,7 +24942,7 @@ accelerometer and 3D digital gyroscope tailored for Industry 4.0 applications.&l
 <part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="C4" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 <part name="GND10" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="LOGO2" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
+<part name="LOGO2" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="MINI" value="OSHW-LOGOMINI"/>
 <part name="STANDOFF1" library="SparkFun-Hardware" deviceset="STAND-OFF" device="TIGHT"/>
 <part name="STANDOFF2" library="SparkFun-Hardware" deviceset="STAND-OFF" device="TIGHT"/>
 <part name="STANDOFF3" library="SparkFun-Hardware" deviceset="STAND-OFF" device="TIGHT"/>
@@ -25009,10 +25009,10 @@ LED.</text>
 <wire x1="213.36" y1="154.94" x2="213.36" y2="149.86" width="0.2032" layer="97"/>
 <wire x1="213.36" y1="149.86" x2="213.36" y2="144.78" width="0.2032" layer="97"/>
 <wire x1="213.36" y1="144.78" x2="213.36" y2="139.7" width="0.2032" layer="97"/>
-<wire x1="213.36" y1="139.7" x2="213.36" y2="132.08" width="0.2032" layer="97"/>
-<wire x1="213.36" y1="132.08" x2="220.98" y2="132.08" width="0.2032" layer="97"/>
-<wire x1="220.98" y1="132.08" x2="236.22" y2="132.08" width="0.2032" layer="97"/>
-<wire x1="236.22" y1="132.08" x2="236.22" y2="139.7" width="0.2032" layer="97"/>
+<wire x1="213.36" y1="139.7" x2="213.36" y2="134.62" width="0.2032" layer="97"/>
+<wire x1="213.36" y1="134.62" x2="220.98" y2="134.62" width="0.2032" layer="97"/>
+<wire x1="220.98" y1="134.62" x2="236.22" y2="134.62" width="0.2032" layer="97"/>
+<wire x1="236.22" y1="134.62" x2="236.22" y2="139.7" width="0.2032" layer="97"/>
 <wire x1="236.22" y1="139.7" x2="236.22" y2="144.78" width="0.2032" layer="97"/>
 <wire x1="236.22" y1="144.78" x2="236.22" y2="149.86" width="0.2032" layer="97"/>
 <wire x1="236.22" y1="149.86" x2="236.22" y2="154.94" width="0.2032" layer="97"/>
@@ -25021,27 +25021,29 @@ LED.</text>
 <wire x1="220.98" y1="149.86" x2="236.22" y2="149.86" width="0.2032" layer="97"/>
 <wire x1="220.98" y1="149.86" x2="220.98" y2="144.78" width="0.2032" layer="97"/>
 <wire x1="220.98" y1="144.78" x2="220.98" y2="139.7" width="0.2032" layer="97"/>
-<wire x1="220.98" y1="139.7" x2="220.98" y2="132.08" width="0.2032" layer="97"/>
+<wire x1="220.98" y1="139.7" x2="220.98" y2="134.62" width="0.2032" layer="97"/>
 <wire x1="220.98" y1="144.78" x2="236.22" y2="144.78" width="0.2032" layer="97"/>
 <wire x1="220.98" y1="139.7" x2="236.22" y2="139.7" width="0.2032" layer="97"/>
 <wire x1="220.98" y1="144.78" x2="213.36" y2="144.78" width="0.2032" layer="97"/>
 <wire x1="213.36" y1="139.7" x2="220.98" y2="139.7" width="0.2032" layer="97"/>
 <text x="214.884" y="146.304" size="1.778" layer="97" font="vector">VDD</text>
 <text x="214.63" y="140.97" size="1.778" layer="97" font="vector">GND</text>
-<text x="214.122" y="134.62" size="1.778" layer="97" font="vector">OPEN</text>
+<text x="214.122" y="136.398" size="1.778" layer="97" font="vector">OPEN</text>
 <text x="224.79" y="146.558" size="1.778" layer="97" font="vector">0x6B</text>
 <text x="224.536" y="141.478" size="1.778" layer="97" font="vector">0x6A</text>
-<text x="224.536" y="135.128" size="1.778" layer="97" font="vector">SPI</text>
+<text x="224.536" y="136.652" size="1.778" layer="97" font="vector">SPI</text>
 <wire x1="203.2" y1="147.32" x2="208.28" y2="147.32" width="0.2032" layer="97" style="dashdot"/>
 <wire x1="208.28" y1="147.32" x2="208.28" y2="152.4" width="0.2032" layer="97" style="dashdot"/>
 <wire x1="208.28" y1="152.4" x2="210.82" y2="152.4" width="0.2032" layer="97" style="dashdot"/>
 <wire x1="210.82" y1="152.4" x2="209.804" y2="153.162" width="0.2032" layer="97" style="dashdot"/>
 <wire x1="209.804" y1="153.162" x2="209.804" y2="151.638" width="0.2032" layer="97" style="dashdot"/>
 <wire x1="210.82" y1="152.4" x2="209.804" y2="151.638" width="0.2032" layer="97" style="dashdot"/>
-<text x="167.64" y="10.16" size="2.54" layer="94" font="vector">Elias Santistevan</text>
+<text x="167.894" y="11.176" size="2.54" layer="94" font="vector">Elias Santistevan</text>
 </plain>
 <instances>
-<instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
+<attribute name="DESIGNER" x="0" y="0" size="2.54" layer="96" font="vector" display="off"/>
+</instance>
 <instance part="FRAME1" gate="V" x="147.32" y="0" smashed="yes">
 <attribute name="LAST_DATE_TIME" x="160.02" y="1.27" size="2.54" layer="94" font="vector"/>
 <attribute name="SHEET" x="233.68" y="1.27" size="2.54" layer="94" font="vector"/>
