@@ -24735,7 +24735,7 @@ LED.</text>
 <wire x1="209.804" y1="153.162" x2="209.804" y2="151.638" width="0.2032" layer="97" style="dashdot"/>
 <wire x1="210.82" y1="152.4" x2="209.804" y2="151.638" width="0.2032" layer="97" style="dashdot"/>
 <text x="167.894" y="11.176" size="2.54" layer="94" font="vector">Elias Santistevan</text>
-<text x="221.996" y="133.858" size="1.778" layer="97" font="vector">Not
+<text x="221.996" y="133.858" size="1.778" layer="97" font="vector">SPI Not
 Supported</text>
 </plain>
 <instances>
