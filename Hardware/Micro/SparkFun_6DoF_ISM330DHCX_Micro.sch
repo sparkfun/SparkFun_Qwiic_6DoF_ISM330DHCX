@@ -7203,7 +7203,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 &lt;li&gt;Pad Pitch: .5mm&lt;/li&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-<circle x="-1.865" y="1.746" radius="0.5" width="0" layer="21"/>
+<circle x="-1.865" y="1.619" radius="0.28049375" width="0" layer="21"/>
 <smd name="P1" x="-1.1625" y="0.75" dx="0.48" dy="0.3" layer="1"/>
 <smd name="P2" x="-1.1625" y="0.25" dx="0.48" dy="0.3" layer="1"/>
 <smd name="P3" x="-1.1625" y="-0.25" dx="0.48" dy="0.3" layer="1"/>
@@ -7358,7 +7358,7 @@ accelerometer and 3D digital gyroscope tailored for Industry 4.0 applications.&l
 <text x="56.642" y="177.8" size="2.54" layer="94" font="vector" align="center">Accelerometer - ISM330DHCX</text>
 <text x="243.84" y="88.646" size="1.778" layer="97" font="vector" rot="R180" align="top-left">If using Mode 2 (Sensor Hub Mode), 
 cut both traces. </text>
-<text x="135.636" y="113.792" size="1.778" layer="97" font="vector" align="top-left">Cut trace to remove I2C
+<text x="135.636" y="113.792" size="1.778" layer="97" font="vector" align="top-left">Cut traces to remove I2C
 pull-up resistors.</text>
 <text x="20.32" y="109.22" size="1.778" layer="97" font="vector" align="top-left">ISM330DHCX MODES
 MODE1:  Perhipheral-only mode
@@ -7489,14 +7489,14 @@ LED.</text>
 <instance part="GND1" gate="1" x="208.28" y="99.06" smashed="yes">
 <attribute name="VALUE" x="205.74" y="96.52" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="GND2" gate="1" x="220.98" y="99.06" smashed="yes">
-<attribute name="VALUE" x="218.44" y="96.52" size="1.778" layer="96" font="vector"/>
+<instance part="GND2" gate="1" x="226.06" y="99.06" smashed="yes">
+<attribute name="VALUE" x="223.52" y="96.52" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="SDX" gate="G$1" x="208.28" y="109.22" smashed="yes" rot="R90">
 <attribute name="NAME" x="205.74" y="109.22" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
-<instance part="SCX" gate="G$1" x="220.98" y="109.22" smashed="yes" rot="R90">
-<attribute name="NAME" x="218.44" y="109.22" size="1.778" layer="95" font="vector" rot="R180"/>
+<instance part="SCX" gate="G$1" x="226.06" y="109.22" smashed="yes" rot="R90">
+<attribute name="NAME" x="223.52" y="109.22" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
 <instance part="JP3" gate="G$1" x="40.64" y="25.4" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="35.56" y="35.56" size="1.778" layer="96" font="vector" rot="MR180"/>
@@ -7570,7 +7570,7 @@ LED.</text>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
 <pinref part="SCX" gate="G$1" pin="1"/>
-<wire x1="220.98" y1="101.6" x2="220.98" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="101.6" x2="226.06" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
@@ -7688,9 +7688,9 @@ LED.</text>
 </segment>
 <segment>
 <pinref part="SCX" gate="G$1" pin="2"/>
-<wire x1="220.98" y1="114.3" x2="220.98" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="116.84" x2="223.52" y2="116.84" width="0.1524" layer="91"/>
-<label x="223.52" y="116.84" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="226.06" y1="114.3" x2="226.06" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="116.84" x2="228.6" y2="116.84" width="0.1524" layer="91"/>
+<label x="228.6" y="116.84" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="INT1" class="0">
