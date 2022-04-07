@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -55,8 +55,8 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
@@ -3507,6 +3507,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <via x="15.2654" y="1.8796" extent="1-16" drill="0.3"/>
 <via x="15.4686" y="6.7564" extent="1-16" drill="0.3"/>
 <via x="12.2174" y="6.9088" extent="1-16" drill="0.3"/>
+<via x="13.1064" y="1.6256" extent="1-16" drill="0.3"/>
 </signal>
 <signal name="SCL">
 <contactref element="R1" pad="1"/>
@@ -3515,10 +3516,10 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="14.0716" y1="5.3608" x2="13.5396" y2="5.3608" width="0.1524" layer="1"/>
 <wire x1="13.5396" y1="5.3608" x2="12.454" y2="4.2752" width="0.1524" layer="1"/>
 <wire x1="12.454" y1="4.2752" x2="12.32535" y2="4.2752" width="0.1524" layer="1"/>
-<wire x1="9.4742" y1="3.064" x2="9.4742" y2="2.2098" width="0.1524" layer="1"/>
-<wire x1="9.4742" y1="2.2098" x2="10.16" y2="1.524" width="0.1524" layer="1"/>
+<wire x1="9.4742" y1="3.064" x2="9.4742" y2="1.9558" width="0.1524" layer="1"/>
+<wire x1="9.4742" y1="1.9558" x2="9.906" y2="1.524" width="0.1524" layer="1"/>
 <wire x1="11.74595" y1="3.6958" x2="12.32535" y2="4.2752" width="0.1524" layer="1"/>
-<wire x1="10.16" y1="1.524" x2="11.303" y2="1.524" width="0.1524" layer="1"/>
+<wire x1="9.906" y1="1.524" x2="11.303" y2="1.524" width="0.1524" layer="1"/>
 <wire x1="11.303" y1="1.524" x2="11.74595" y2="1.96695" width="0.1524" layer="1"/>
 <wire x1="11.74595" y1="1.96695" x2="11.74595" y2="3.6958" width="0.1524" layer="1"/>
 </signal>
@@ -3530,11 +3531,13 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="13.31595" y1="4.3608" x2="14.0716" y2="4.3608" width="0.1524" layer="1"/>
 <wire x1="9.9742" y1="2.421" x2="9.9742" y2="3.064" width="0.1524" layer="1"/>
 <via x="10.541" y="2.26455" extent="1-16" drill="0.3"/>
-<wire x1="12.32535" y1="3.3702" x2="12.49669375" y2="3.3702" width="0.1524" layer="1"/>
-<wire x1="12.49669375" y1="3.3702" x2="12.975346875" y2="2.891546875" width="0.1524" layer="1"/>
+<wire x1="12.467346875" y1="2.891546875" x2="12.32535" y2="3.03354375" width="0.1524" layer="1"/>
+<wire x1="12.32535" y1="3.3702" x2="12.32535" y2="3.03354375" width="0.1524" layer="1"/>
+<wire x1="12.467346875" y1="2.891546875" x2="12.975346875" y2="2.891546875" width="0.1524" layer="1"/>
 <via x="12.975346875" y="2.891546875" extent="1-16" drill="0.3"/>
-<wire x1="12.975346875" y1="2.891546875" x2="12.34835" y2="2.26455" width="0.1524" layer="16"/>
-<wire x1="12.34835" y1="2.26455" x2="10.541" y2="2.26455" width="0.1524" layer="16"/>
+<wire x1="12.975346875" y1="2.891546875" x2="12.086346875" y2="2.891546875" width="0.1524" layer="16"/>
+<wire x1="12.086346875" y1="2.891546875" x2="11.45935" y2="2.26455" width="0.1524" layer="16"/>
+<wire x1="11.45935" y1="2.26455" x2="10.541" y2="2.26455" width="0.1524" layer="16"/>
 <wire x1="10.541" y1="2.26455" x2="10.13065" y2="2.26455" width="0.1524" layer="1"/>
 <wire x1="10.13065" y1="2.26455" x2="9.9742" y2="2.421" width="0.1524" layer="1"/>
 </signal>
