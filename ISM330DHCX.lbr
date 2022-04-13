@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -315,7 +315,7 @@ accelerometer and 3D digital gyroscope tailored for Industry 4.0 applications.&l
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="SEN-19472" constant="no"/>
+<attribute name="PROD_ID" value="IC-16693" constant="no"/>
 </technology>
 </technologies>
 </device>
