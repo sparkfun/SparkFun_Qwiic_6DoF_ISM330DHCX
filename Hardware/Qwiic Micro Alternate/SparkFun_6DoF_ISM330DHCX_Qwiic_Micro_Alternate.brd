@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -227,9 +227,10 @@
 <wire x1="3.32105" y1="7.324725" x2="3.19405" y2="7.01675" width="0.254" layer="22"/>
 <wire x1="3.19405" y1="7.01675" x2="2.987675" y2="7.37235" width="0.254" layer="22"/>
 <wire x1="3.190875" y1="7.24535" x2="2.784475" y2="5.63245" width="0.254" layer="22" curve="100"/>
-<circle x="3.6449" y="6.28015" radius="0.127" width="0.254" layer="22"/>
 <circle x="3.6449" y="6.28015" radius="0.5334" width="0.254" layer="22"/>
 <dimension x1="2.54" y1="3.81" x2="2.54" y2="0" x3="-6.35" y3="1.905" textsize="1.778" layer="47" unit="inch"/>
+<wire x1="4.064" y1="5.842" x2="3.175" y2="6.731" width="0.254" layer="22"/>
+<wire x1="3.302" y1="5.842" x2="4.191" y2="6.731" width="0.254" layer="22"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">

@@ -227,9 +227,10 @@
 <wire x1="9.01065" y1="6.588125" x2="8.88365" y2="6.28015" width="0.254" layer="22"/>
 <wire x1="8.88365" y1="6.28015" x2="8.677275" y2="6.63575" width="0.254" layer="22"/>
 <wire x1="8.880475" y1="6.50875" x2="8.474075" y2="4.89585" width="0.254" layer="22" curve="100"/>
-<circle x="9.3345" y="5.54355" radius="0.127" width="0.254" layer="22"/>
 <circle x="9.3345" y="5.54355" radius="0.5334" width="0.254" layer="22"/>
 <dimension x1="2.54" y1="3.81" x2="2.54" y2="0" x3="-6.35" y3="1.905" textsize="1.778" layer="47" unit="inch"/>
+<wire x1="9.906" y1="6.096" x2="8.763" y2="4.953" width="0.254" layer="22"/>
+<wire x1="8.89" y1="5.969" x2="9.906" y2="4.953" width="0.254" layer="22"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
