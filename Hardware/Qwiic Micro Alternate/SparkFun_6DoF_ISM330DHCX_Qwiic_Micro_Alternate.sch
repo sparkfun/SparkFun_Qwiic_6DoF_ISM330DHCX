@@ -24675,20 +24675,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-10.16" y1="-15.24" x2="10.16" y2="-15.24" width="0.1524" layer="94"/>
 <wire x1="10.16" y1="-15.24" x2="10.16" y2="12.7" width="0.1524" layer="94"/>
 <wire x1="10.16" y1="12.7" x2="-10.16" y2="12.7" width="0.1524" layer="94"/>
-<pin name="VDD" x="-12.7" y="10.16" length="short" direction="pwr"/>
-<pin name="VDD_IO" x="-12.7" y="7.62" length="short" direction="pwr"/>
-<pin name="GND@6" x="-12.7" y="-10.16" length="short" direction="pwr"/>
-<pin name="GND@7" x="-12.7" y="-12.7" length="short" direction="pwr"/>
-<pin name="SDA" x="12.7" y="10.16" length="short" rot="R180"/>
-<pin name="SCL" x="12.7" y="7.62" length="short" rot="R180"/>
-<pin name="!CS!" x="12.7" y="5.08" length="short" rot="R180"/>
-<pin name="SDO/SA0" x="12.7" y="2.54" length="short" rot="R180"/>
-<pin name="SDX" x="12.7" y="0" length="short" rot="R180"/>
-<pin name="SCX" x="12.7" y="-2.54" length="short" rot="R180"/>
-<pin name="SDO_AUX" x="12.7" y="-5.08" length="short" rot="R180"/>
-<pin name="OCS_AUX" x="12.7" y="-7.62" length="short" rot="R180"/>
-<pin name="INT1" x="12.7" y="-10.16" length="short" rot="R180"/>
-<pin name="INT2" x="12.7" y="-12.7" length="short" rot="R180"/>
+<pin name="VDD" x="-12.7" y="10.16" visible="pin" length="short" direction="pwr"/>
+<pin name="VDD_IO" x="-12.7" y="7.62" visible="pin" length="short" direction="pwr"/>
+<pin name="GND@6" x="-12.7" y="-10.16" visible="pin" length="short" direction="pwr"/>
+<pin name="GND@7" x="-12.7" y="-12.7" visible="pin" length="short" direction="pwr"/>
+<pin name="SDA" x="12.7" y="10.16" visible="pin" length="short" rot="R180"/>
+<pin name="SCL" x="12.7" y="7.62" visible="pin" length="short" rot="R180"/>
+<pin name="!CS!" x="12.7" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="SDO/SA0" x="12.7" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="SDX" x="12.7" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="SCX" x="12.7" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="SDO_AUX" x="12.7" y="-5.08" visible="pin" length="short" rot="R180"/>
+<pin name="OCS_AUX" x="12.7" y="-7.62" visible="pin" length="short" rot="R180"/>
+<pin name="INT1" x="12.7" y="-10.16" visible="pin" length="short" rot="R180"/>
+<pin name="INT2" x="12.7" y="-12.7" visible="pin" length="short" rot="R180"/>
 <text x="-7.62" y="15.24" size="1.778" layer="95" font="vector" align="center">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96" font="vector" align="center">&gt;VALUE</text>
 </symbol>
@@ -24746,7 +24746,7 @@ accelerometer and 3D digital gyroscope tailored for Industry 4.0 applications.&l
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="SEN-19472" constant="no"/>
+<attribute name="PROD_ID" value="IC-16693" constant="no"/>
 </technology>
 </technologies>
 </device>

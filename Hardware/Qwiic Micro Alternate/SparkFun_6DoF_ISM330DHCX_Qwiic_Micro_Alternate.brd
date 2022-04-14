@@ -2925,7 +2925,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$29" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="" x="2.667" y="6.5278" smashed="yes" rot="R90"/>
 <element name="U1" library="ISM330DHCX" package="LGA-14L" value="ISM330DHCX" x="9.4742" y="4.064" smashed="yes" rot="R180">
 <attribute name="NAME" x="9.4742" y="0.215" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="center"/>
-<attribute name="PROD_ID" value="SEN-19472" x="9.4742" y="4.064" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PROD_ID" value="IC-16693" x="9.4742" y="4.064" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="9.4742" y="5.81" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="center"/>
 </element>
 <element name="R6" library="SparkFun-Resistors" package="0402-TIGHT" value="10k" x="12.4968" y="6.9088" smashed="yes" rot="R180">
