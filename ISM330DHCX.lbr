@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -240,26 +240,26 @@
 </packages>
 <symbols>
 <symbol name="ISM330DHCX">
-<wire x1="-10.16" y1="12.7" x2="-10.16" y2="-15.24" width="0.1524" layer="94"/>
-<wire x1="-10.16" y1="-15.24" x2="10.16" y2="-15.24" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="-15.24" x2="10.16" y2="12.7" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="12.7" x2="-10.16" y2="12.7" width="0.1524" layer="94"/>
-<pin name="VDD" x="-12.7" y="10.16" visible="pin" length="short" direction="pwr"/>
-<pin name="VDD_IO" x="-12.7" y="7.62" visible="pin" length="short" direction="pwr"/>
-<pin name="GND@6" x="-12.7" y="-10.16" visible="pin" length="short" direction="pwr"/>
-<pin name="GND@7" x="-12.7" y="-12.7" visible="pin" length="short" direction="pwr"/>
-<pin name="SDA" x="12.7" y="10.16" visible="pin" length="short" rot="R180"/>
-<pin name="SCL" x="12.7" y="7.62" visible="pin" length="short" rot="R180"/>
-<pin name="!CS!" x="12.7" y="5.08" visible="pin" length="short" rot="R180"/>
-<pin name="SDO/SA0" x="12.7" y="2.54" visible="pin" length="short" rot="R180"/>
-<pin name="SDX" x="12.7" y="0" visible="pin" length="short" rot="R180"/>
-<pin name="SCX" x="12.7" y="-2.54" visible="pin" length="short" rot="R180"/>
-<pin name="SDO_AUX" x="12.7" y="-5.08" visible="pin" length="short" rot="R180"/>
-<pin name="OCS_AUX" x="12.7" y="-7.62" visible="pin" length="short" rot="R180"/>
-<pin name="INT1" x="12.7" y="-10.16" visible="pin" length="short" rot="R180"/>
-<pin name="INT2" x="12.7" y="-12.7" visible="pin" length="short" rot="R180"/>
-<text x="-7.62" y="15.24" size="1.778" layer="95" font="vector" align="center">&gt;NAME</text>
-<text x="-7.62" y="-17.78" size="1.778" layer="96" font="vector" align="center">&gt;VALUE</text>
+<wire x1="-12.7" y1="12.7" x2="-12.7" y2="-15.24" width="0.1524" layer="94"/>
+<wire x1="-12.7" y1="-15.24" x2="12.7" y2="-15.24" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-15.24" x2="12.7" y2="12.7" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="12.7" x2="-12.7" y2="12.7" width="0.1524" layer="94"/>
+<pin name="VDD" x="-15.24" y="10.16" visible="pin" length="short" direction="pwr"/>
+<pin name="VDD_IO" x="-15.24" y="5.08" visible="pin" length="short" direction="pwr"/>
+<pin name="GND@6" x="-15.24" y="-10.16" visible="pin" length="short" direction="pwr"/>
+<pin name="GND@7" x="-15.24" y="-12.7" visible="pin" length="short" direction="pwr"/>
+<pin name="SDA/SDI/SDO" x="15.24" y="7.62" visible="pin" length="short" rot="R180"/>
+<pin name="SCL" x="15.24" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="!CS!" x="15.24" y="10.16" visible="pin" length="short" rot="R180"/>
+<pin name="SDO/SA0" x="15.24" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="SDX" x="15.24" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="SCX" x="15.24" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="SDO_AUX" x="15.24" y="-5.08" visible="pin" length="short" rot="R180"/>
+<pin name="OCS_AUX" x="15.24" y="-7.62" visible="pin" length="short" rot="R180"/>
+<pin name="INT1" x="15.24" y="-10.16" visible="pin" length="short" rot="R180"/>
+<pin name="INT2" x="15.24" y="-12.7" visible="pin" length="short" rot="R180"/>
+<text x="-10.16" y="15.24" size="1.778" layer="95" font="vector" align="center">&gt;NAME</text>
+<text x="-10.16" y="-17.78" size="1.778" layer="96" font="vector" align="center">&gt;VALUE</text>
 </symbol>
 <symbol name="LED">
 <description>&lt;h3&gt;LED&lt;/h3&gt;
@@ -306,7 +306,7 @@ accelerometer and 3D digital gyroscope tailored for Industry 4.0 applications.&l
 <connect gate="G$1" pin="OCS_AUX" pad="P10"/>
 <connect gate="G$1" pin="SCL" pad="P13"/>
 <connect gate="G$1" pin="SCX" pad="P3"/>
-<connect gate="G$1" pin="SDA" pad="P14"/>
+<connect gate="G$1" pin="SDA/SDI/SDO" pad="P14"/>
 <connect gate="G$1" pin="SDO/SA0" pad="P1"/>
 <connect gate="G$1" pin="SDO_AUX" pad="P11"/>
 <connect gate="G$1" pin="SDX" pad="P2"/>
