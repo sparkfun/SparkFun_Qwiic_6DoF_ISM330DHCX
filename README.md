@@ -1,9 +1,9 @@
 # SparkFun_Qwiic_6DoF_ISM330DHCX
 ========================================
 
-[![SparkFun Part Name](URL for picture of part)](URL for product on Sparkfun.com)
+[![SparkFun Qwiic 6DoF - ISM330DHCX](URL for picture of part)](https://www.sparkfun.com/products/19764)
 
-[*SparkFun Part Name (SKU)*](URL for product on Sparkfun.com)
+[*SparkFun Qwiic 6DoF - ISM330DHCX (19764)*](https://www.sparkfun.com/products/19764)
 
 <Basic description of the part.>
 
@@ -20,22 +20,9 @@ Repository Contents
 
 Documentation
 --------------
-* **[Library](GitHub library URL)** - <LANGUAGE> library for the <PRODUCT NAME>.
-* **[Hookup Guide](Learn.SparkFun URL)** - Basic hookup guide for the <PRODUCT NAME>.
-* **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
-* **[SparkFun 3D Model repo](https://github.com/sparkfun/3D_Models)** - 3D models of SparkFun products. 
-* **[SparkFun Graphical Datasheets](https://github.com/sparkfun/Graphical_Datasheets)** -Graphical Datasheets for various SparkFun products.
+* **[Library](https://github.com/sparkfun/SparkFun_6DoF_ISM330DHCX_Arduino_Library)** - Arduino library for the SparkFun Qwiic 6DoF - ISM330DHCX.
+* **[Hookup Guide](https://sparkle.sparkfun.com/sparkle/learn_tutorials/2484)** - Basic hookup guide for the SparkFun Qwiic 6DoF - ISM330DHCX.
 
-Product Versions
-----------------
-* [Part SKU](part URL)- Basic part and short description here
-* [Retail part SKU](retail URL)- Retail packaging of standard description here
-* [Any other parts this repo covers](any other URLs) - Description of said parts
-
-Version History
----------------
-* [vExxFxxZxxHxxLxxSxx](URL for tag specific to this version) - Description 
-* [vEyyFyyZyyHyyLyySyy](URL for tag specific to this version) - Description
 
 License Information
 -------------------
