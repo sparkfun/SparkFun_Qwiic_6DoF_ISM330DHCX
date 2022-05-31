@@ -25048,7 +25048,7 @@ MODE 3 and 4:  AUX SPI mode
 <wire x1="114.3" y1="185.42" x2="114.3" y2="83.82" width="0.2032" layer="97" style="longdash"/>
 <text x="48.006" y="152.654" size="1.27" layer="97" font="vector">VDD Range: 1.71V - 3.6V
 VDDIO Range: 1.62V - 3.6V</text>
-<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v01</text>
+<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v10</text>
 <text x="177.8" y="180.34" size="2.54" layer="94" font="vector" align="center">Jumpers</text>
 <text x="152.4" y="129.54" size="1.778" layer="97" font="vector">Cut trace to
 disconnect Power
@@ -25059,19 +25059,19 @@ LED.</text>
 <wire x1="213.36" y1="144.78" x2="213.36" y2="139.7" width="0.2032" layer="97"/>
 <wire x1="213.36" y1="139.7" x2="213.36" y2="134.62" width="0.2032" layer="97"/>
 <wire x1="213.36" y1="134.62" x2="220.98" y2="134.62" width="0.2032" layer="97"/>
-<wire x1="220.98" y1="134.62" x2="236.22" y2="134.62" width="0.2032" layer="97"/>
-<wire x1="236.22" y1="134.62" x2="236.22" y2="139.7" width="0.2032" layer="97"/>
-<wire x1="236.22" y1="139.7" x2="236.22" y2="144.78" width="0.2032" layer="97"/>
-<wire x1="236.22" y1="144.78" x2="236.22" y2="149.86" width="0.2032" layer="97"/>
-<wire x1="236.22" y1="149.86" x2="236.22" y2="154.94" width="0.2032" layer="97"/>
-<wire x1="236.22" y1="154.94" x2="213.36" y2="154.94" width="0.2032" layer="97"/>
+<wire x1="220.98" y1="134.62" x2="246.38" y2="134.62" width="0.2032" layer="97"/>
+<wire x1="246.38" y1="134.62" x2="246.38" y2="139.7" width="0.2032" layer="97"/>
+<wire x1="246.38" y1="139.7" x2="246.38" y2="144.78" width="0.2032" layer="97"/>
+<wire x1="246.38" y1="144.78" x2="246.38" y2="149.86" width="0.2032" layer="97"/>
+<wire x1="246.38" y1="149.86" x2="246.38" y2="154.94" width="0.2032" layer="97"/>
+<wire x1="246.38" y1="154.94" x2="213.36" y2="154.94" width="0.2032" layer="97"/>
 <wire x1="213.36" y1="149.86" x2="220.98" y2="149.86" width="0.2032" layer="97"/>
-<wire x1="220.98" y1="149.86" x2="236.22" y2="149.86" width="0.2032" layer="97"/>
+<wire x1="220.98" y1="149.86" x2="246.38" y2="149.86" width="0.2032" layer="97"/>
 <wire x1="220.98" y1="149.86" x2="220.98" y2="144.78" width="0.2032" layer="97"/>
 <wire x1="220.98" y1="144.78" x2="220.98" y2="139.7" width="0.2032" layer="97"/>
 <wire x1="220.98" y1="139.7" x2="220.98" y2="134.62" width="0.2032" layer="97"/>
-<wire x1="220.98" y1="144.78" x2="236.22" y2="144.78" width="0.2032" layer="97"/>
-<wire x1="220.98" y1="139.7" x2="236.22" y2="139.7" width="0.2032" layer="97"/>
+<wire x1="220.98" y1="144.78" x2="246.38" y2="144.78" width="0.2032" layer="97"/>
+<wire x1="220.98" y1="139.7" x2="246.38" y2="139.7" width="0.2032" layer="97"/>
 <wire x1="220.98" y1="144.78" x2="213.36" y2="144.78" width="0.2032" layer="97"/>
 <wire x1="213.36" y1="139.7" x2="220.98" y2="139.7" width="0.2032" layer="97"/>
 <text x="214.884" y="146.304" size="1.778" layer="97" font="vector">VDD</text>
@@ -25087,6 +25087,7 @@ LED.</text>
 <wire x1="209.804" y1="153.162" x2="209.804" y2="151.638" width="0.2032" layer="97" style="dashdot"/>
 <wire x1="210.82" y1="152.4" x2="209.804" y2="151.638" width="0.2032" layer="97" style="dashdot"/>
 <text x="167.894" y="11.176" size="2.54" layer="94" font="vector">Elias Santistevan</text>
+<text x="232.41" y="146.558" size="1.778" layer="97" font="vector">(Default)</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">

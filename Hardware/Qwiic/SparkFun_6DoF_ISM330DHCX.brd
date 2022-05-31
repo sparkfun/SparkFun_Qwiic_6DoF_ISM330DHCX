@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -200,7 +200,7 @@
 <wire x1="0" y1="25.4" x2="0" y2="0" width="0.2032" layer="20"/>
 <wire x1="0" y1="0" x2="25.4" y2="0" width="0.2032" layer="20"/>
 <wire x1="25.4" y1="0" x2="25.4" y2="25.4" width="0.2032" layer="20"/>
-<text x="24.139525" y="11.420475" size="0.8128" layer="16" font="vector" ratio="22" rot="MR90">v01</text>
+<text x="24.139525" y="11.420475" size="0.8128" layer="16" font="vector" ratio="22" rot="MR90">v10</text>
 <wire x1="0.3302" y1="7.546975" x2="2.2352" y2="7.546975" width="0.254" layer="21"/>
 <wire x1="1.7272" y1="7.038975" x2="1.7272" y2="8.181975" width="0.254" layer="21" curve="-180"/>
 <wire x1="1.7272" y1="8.181975" x2="1.4732" y2="8.308975" width="0.254" layer="21"/>
@@ -9123,8 +9123,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="NAME" x="22.86" y="24.511" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="VALUE" x="22.86" y="21.209" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="U$3" library="top" package="##CS##7" value="" x="19.0754" y="3.3528" smashed="yes" rot="R90"/>
-<element name="U$27" library="bot" package="##CS##8" value="" x="19.0754" y="3.3528" smashed="yes" rot="MR270"/>
+<element name="U$3" library="top" package="##CS##7" value="" x="16.5354" y="3.3528" smashed="yes" rot="R90"/>
+<element name="U$27" library="bot" package="##CS##8" value="" x="16.5354" y="3.3528" smashed="yes" rot="MR270"/>
 <element name="U$31" library="top" package="6DOF12" value="" x="5.6896" y="12.8524" smashed="yes" rot="MR270"/>
 <element name="R5" library="SparkFun-Resistors" package="0603" value="10k" x="17.272" y="14.3764" smashed="yes" rot="R90">
 <attribute name="NAME" x="16.51" y="14.3764" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
@@ -9149,8 +9149,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$32" library="ISMTop" package="#PICOX#9" value="" x="16.4592" y="18.2372" smashed="yes" rot="MR270"/>
 <element name="U$33" library="ISMTop" package="#POCIX#7" value="" x="19.05" y="20.7772" smashed="yes" rot="MR270"/>
 <element name="U$26" library="ISMTop" package="#PICO#13" value="" x="11.43" y="4.1656" smashed="yes" rot="MR270"/>
-<element name="U$6" library="ISMTop" package="#POCI#11" value="" x="16.51" y="4.2164" smashed="yes" rot="MR270"/>
-<element name="U$18" library="ISMTop" package="#POCI#12" value="" x="16.51" y="4.2164" smashed="yes" rot="R90"/>
+<element name="U$6" library="ISMTop" package="#POCI#11" value="" x="19.05" y="4.2164" smashed="yes" rot="MR270"/>
+<element name="U$18" library="ISMTop" package="#POCI#12" value="" x="19.05" y="4.2164" smashed="yes" rot="R90"/>
 <element name="U$34" library="ISMTopMini" package="X2114" value="" x="1.651" y="6.35" smashed="yes"/>
 <element name="U$35" library="ISMTopMini" package="Y2115" value="" x="4.826" y="5.461" smashed="yes"/>
 <element name="U$36" library="ISMTopMini" package="Z2116" value="" x="5.207" y="7.62" smashed="yes"/>
