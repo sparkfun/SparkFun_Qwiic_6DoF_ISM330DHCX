@@ -24299,6 +24299,8 @@ accelerometer and 3D digital gyroscope tailored for Industry 4.0 applications.&l
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="TP4" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3" value="TEST-POINT3"/>
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="R3" library="SparkFun-Resistors" deviceset="10KOHM" device="-0402T-1/16W-1%" value="10k"/>
+<part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -24504,6 +24506,13 @@ Supported</text>
 <instance part="GND1" gate="1" x="99.06" y="88.9" smashed="yes">
 <attribute name="VALUE" x="96.52" y="86.36" size="1.778" layer="96" font="vector"/>
 </instance>
+<instance part="R3" gate="G$1" x="78.74" y="152.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="77.216" y="152.4" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="80.264" y="152.4" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="SUPPLY7" gate="G$1" x="78.74" y="160.02" smashed="yes">
+<attribute name="VALUE" x="77.724" y="163.576" size="1.778" layer="96" font="vector"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -24675,6 +24684,11 @@ Supported</text>
 <wire x1="96.52" y1="101.6" x2="96.52" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="SUPPLY6" gate="G$1" pin="3.3V"/>
 </segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="SUPPLY7" gate="G$1" pin="3.3V"/>
+<wire x1="78.74" y1="160.02" x2="78.74" y2="157.48" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$5" class="0">
 <segment>
@@ -24718,6 +24732,14 @@ Supported</text>
 <pinref part="R6" gate="G$1" pin="2"/>
 <pinref part="ADDR" gate="G$1" pin="1"/>
 <wire x1="200.66" y1="139.7" x2="200.66" y2="142.24" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="!CS!"/>
+<wire x1="76.2" y1="139.7" x2="78.74" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="139.7" x2="78.74" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
