@@ -9266,6 +9266,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="12.3825" y1="14.2875" x2="11.8881" y2="14.7819" width="0.254" layer="1"/>
 <wire x1="11.8881" y1="14.7819" x2="11.8881" y2="15.3162" width="0.254" layer="1"/>
 <via x="8.0518" y="21.5646" extent="1-16" drill="0.3"/>
+<via x="12.1158" y="6.8072" extent="1-16" drill="0.3"/>
 </signal>
 <signal name="SCL">
 <contactref element="JP1" pad="3"/>
