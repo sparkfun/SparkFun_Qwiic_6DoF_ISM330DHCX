@@ -24315,7 +24315,7 @@ MODE1:  Perhipheral-only mode
 <wire x1="0" y1="83.82" x2="83.82" y2="83.82" width="0.2032" layer="97" style="longdash"/>
 <wire x1="114.3" y1="83.82" x2="248.92" y2="83.82" width="0.2032" layer="97" style="longdash"/>
 <wire x1="114.3" y1="185.42" x2="114.3" y2="116.84" width="0.2032" layer="97" style="longdash"/>
-<text x="48.006" y="152.654" size="1.27" layer="97" font="vector">VDD Range: 1.71V - 3.6V
+<text x="40.386" y="170.434" size="1.27" layer="97" font="vector">VDD Range: 1.71V - 3.6V
 VDDIO Range: 1.62V - 3.6V</text>
 <text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v10</text>
 <text x="177.8" y="180.34" size="2.54" layer="94" font="vector" align="center">Jumpers</text>
@@ -24374,6 +24374,9 @@ Supported</text>
 <text x="232.918" y="146.558" size="1.778" layer="97" font="vector">(Default)</text>
 <wire x1="83.82" y1="116.84" x2="83.82" y2="83.82" width="0.2032" layer="97" style="longdash"/>
 <wire x1="83.82" y1="83.82" x2="114.3" y2="83.82" width="0.2032" layer="97" style="longdash"/>
+<text x="33.02" y="167.64" size="1.27" layer="97" font="vector">I2C Address (selectable): 0x6B (Default)</text>
+<text x="13.462" y="68.326" size="1.778" layer="97" font="vector">PTH connectors only 
+accept 22AWG or smaller</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
