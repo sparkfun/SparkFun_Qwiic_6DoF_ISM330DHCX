@@ -1,7 +1,7 @@
 # SparkFun_Qwiic_6DoF_ISM330DHCX
 ========================================
 
-[![SparkFun Qwiic 6DoF - ISM330DHCX](URL for picture of part)](https://www.sparkfun.com/products/19764)
+[![SparkFun Qwiic 6DoF - ISM330DHCX](https://cdn.sparkfun.com/assets/parts/1/9/9/7/9/6DoFIMU_03.jpg)](https://www.sparkfun.com/products/19764)
 
 [*SparkFun Qwiic 6DoF - ISM330DHCX (19764)*](https://www.sparkfun.com/products/19764)
 
@@ -15,12 +15,8 @@ Repository Contents
 -------------------
 
 * **/Documentation** - Data sheets, additional product information
-* **/Enclosure** - Enclosure files 
-* **/Firmware** - Example code 
 * **/Hardware** - Eagle design files (.brd, .sch)
-* **/Libraries** - Libraries for use with the <PRODUCT NAME>
 * **/Production** - Production panel files (.brd)
-* **/Software** - Related software for the <PRODUCT NAME>
 
 Documentation
 --------------
